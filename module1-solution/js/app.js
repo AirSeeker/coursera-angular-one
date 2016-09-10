@@ -12,7 +12,6 @@
 
 		$scope.checkList = function(){
 			var getArrayOfList = $scope.listOfNames.trim().split(',');
-			console.log(getArrayOfList.length);
 
 			if(getArrayOfList[getArrayOfList.length-1] === '' && getArrayOfList.length > 1){
 				getArrayOfList.pop();
