@@ -16,7 +16,7 @@
 		buyItems.buy = function(name, quantity, index){
 			 ShoppingListCheckOffService.buyItem(name, quantity, index);
 			 buyItems.messageShow = ShoppingListCheckOffService.getMessageBuy();
-			 document.getElementsByClassName("boughtList").style.display = 'none';
+			 document.getElementsByClassName("boughtList")[0].style.display = 'none';
 
 		};
 	};
